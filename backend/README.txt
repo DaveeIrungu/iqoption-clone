@@ -25,3 +25,9 @@ they are installed globally, which risk messing other libraries, (you'll know wh
     *when you are new to flask, you tend to put all your logic in one place, coz you probably 
      haven't heard about blueprints, or you are still new to MVC logic. dont worry, work your way,
      we'll correct here and there, as you teach me also ;).
+
+
+***********************************************************************************************************************
+Note that the routes.py cannot access the app folder in the directory
+Hence, it cannot access the forms (login and sign up) that I've created and the variables/methods within the form classes
+That's the only setback so far
